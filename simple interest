@@ -1,0 +1,11 @@
+#calculating simple interest
+
+p=float(input("enter the principal amount"))
+t=float(input("enter the principal amount"))
+r=float(input("enter the principal amount"))
+
+s= (p*t*r)/100
+# rounding upto 2 decimal places
+s=str(round(s,2))
+
+print("simple interest is", s)
