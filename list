@@ -1,0 +1,8 @@
+list = ["apple","banana", 'grapes', "pineappe","strawberry"]
+
+print(list[2])
+
+list.append("fig")
+print(list)
+list.insert(3,"tacos")
+print(list)
